@@ -7,7 +7,7 @@ body {
 }
 
 :root {
-    --fundocolor01:#D8E8F2;
+    --fundocolor01:#343BBF;
     --fundocolor02:#2E4021;
     --font01:'Bebas Neue', sans-serif;
     --font02:'Fjalla One', sans-serif;
@@ -29,21 +29,39 @@ header {
     text-align: center;
     padding-top: 90px;
     height: 400px;
-    
+  
+   
 }
 
 #pheader {
-    font-size: 1.2em;
+    font-size: 1em;
+    color: #F2EA77;
 }
 
 .tituloheader {
     font-family: var(--font01);
-    font-size: 5.2em;
-    color: #2B3640;    
+    font-size: 4.2em;
+    color: #F2F2F2;    
+}
+
+@media(min-width: 400px) {
+    .tituloheader {
+        font-size: 5.2em;
+    }
+
+    #pheader {
+        font-size: 1.2em;
+    }
+}
+
+@media(min-width: 365px) {
+    .titulomain {
+        font-size: 2em;
+    }
 }
 
 main {
-    background-color: white;
+    background-color:#F2F2F2;
     text-align: center;
     color: #151d0f;
     height: auto;
@@ -53,11 +71,11 @@ main {
 
 .titulomain {
     font-family: 'Comfortaa', cursive;
-    font-size: 2em;
+    font-size: 1.7em;
     margin-bottom: 30px;
     font-weight: bold;
     color: #141E26;
-    background-image: linear-gradient(to right, #87e7e7, white );
+    background-image: linear-gradient(to right, #4973F2, white );
 }
 
 .estilobutt {
@@ -92,9 +110,9 @@ a {
 aside  {
     color:#D8E8F2;
     text-align: center;
-    background-color: #141E26;
+    background-color: #262022;
     height: 300px;
-    padding-top: 80px;
+    padding-top: 70px;
 }
 
 .estilobutton {
@@ -126,22 +144,23 @@ header#pagina2 {
     background-color: white;
     width: 340px;
     margin: auto;
-    height: 500px;
+    height: 600px;
     box-shadow: 2px 5px 8px #0000003a;
 }
 
 section#projetosjava {
     margin-top: 50px;
-    background-color: #008F8C;
+    background-color: #F2CB05;
     height: 300px;
     padding-top: 80px;
+    color:#D8F0F2 ;
 }
 
 
 
 #titulopag2 {
      font-family: var(--font01);
-     background-image: linear-gradient(to right, #87e7e7, white );
+     background-image: linear-gradient(to right,  #4973F2, white );
      width: 300px;
      margin: auto;
 }
@@ -163,3 +182,11 @@ ul#projetos {
     }
 
 }
+
+footer {
+    background-color: #010A26;
+    margin-top: 270px;
+    color: #D8E8F2;
+    text-align: center;
+}
+
