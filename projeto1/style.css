@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chivo:ital@1&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+body {
+    background-color: var(--fundocolor01);
+}
+
+:root {
+    --fundocolor01:#D8E8F2;
+    --fundocolor02:#2E4021;
+    --font01:'Bebas Neue', sans-serif;
+    --font02:'Fjalla One', sans-serif;
+    --font03: 'Comfortaa', sans-serif;
+}
+
+#iconnav {
+   margin-left:20px;
+}
+
+
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-family: var(--font02);
+}
+
+header {
+    text-align: center;
+    padding-top: 90px;
+    height: 400px;
+    
+}
+
+#pheader {
+    font-size: 1.2em;
+}
+
+.tituloheader {
+    font-family: var(--font01);
+    font-size: 5.2em;
+    color: #2B3640;    
+}
+
+main {
+    background-color: white;
+    text-align: center;
+    color: #151d0f;
+    height: auto;
+    padding: 50px;
+    
+}
+
+.titulomain {
+    font-family: 'Comfortaa', cursive;
+    font-size: 2em;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #141E26;
+    background-image: linear-gradient(to right, #87e7e7, white );
+}
+
+.estilobutt {
+    background-color: transparent;
+    border: 2px solid #141E26;
+    color: #141E26;
+    padding: 10px;
+    border-radius: 30px;
+    width: 170px;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+
+.estilobutt:hover, .estilobutt:focus, .estilobutt:active {
+    background-color: #141E26;
+    color: var(--fundocolor01);
+    border: none;
+}
+
+#section2 {
+    margin-top: 60px;
+    font-size: 1.2em;
+    height: 300px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+aside  {
+    color:#D8E8F2;
+    text-align: center;
+    background-color: #141E26;
+    height: 300px;
+    padding-top: 80px;
+}
+
+.estilobutton {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    width: 150px;
+    margin-top: 20px;
+    transition: 0.3s;
+    font-weight: normal;
+    font-size: 1.2;
+    outline: none;
+}
+
+.verproj {
+    font-family: var(--font01);    
+}
+
+.estilobutton:hover, .estilobutton:focus, .estilobutton:active {
+    background-color: white;
+    color: rgb(22, 9, 22);
+    border: none;
+}
+
+
+header#pagina2 {
+    background-color: white;
+    width: 340px;
+    margin: auto;
+    height: 500px;
+    box-shadow: 2px 5px 8px #0000003a;
+}
+
+section#projetosjava {
+    margin-top: 50px;
+    background-color: #008F8C;
+    height: 300px;
+    padding-top: 80px;
+}
+
+
+
+#titulopag2 {
+     font-family: var(--font01);
+     background-image: linear-gradient(to right, #87e7e7, white );
+     width: 300px;
+     margin: auto;
+}
+
+ul#projetos {
+    text-align: initial;
+    margin-left: 40px;
+    margin-top: 30px;
+    list-style: none;
+}
+
+@media(min-width: 633px) {
+    header#pagina2 {
+        width: 600px;
+    }
+
+    #titulopag2 {
+        width: 400px;
+    }
+
+}

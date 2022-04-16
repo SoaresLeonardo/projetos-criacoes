@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!--Link estilo ; site-->
+  <link rel="stylesheet" href="style.css">
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img id="iconnav" src="imagens/iconleo.png" alt="icon" width="50px" style="margin-right: 10px;">leosoareshenrique.</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <a class="nav-link" href="#">Sobre</a>
+          <a class="nav-link" href="pagina01.html">Projetos</a>
+          <a class="nav-link" href="#">Atualizações</a>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <header>
+    <h1 class="tituloheader">Bem-vindo(A)</h1>
+    <p id="pheader">Este site é para mostrar meus projetos realizados  <br> durante meu aprendizado de HTML5, CSS3 e JavaScript&#x1F468;&#x200D;&#x1F4BB;</p>
+  </header>
+  <main>
+    <section>
+      <h1 class="titulomain">Do que se trata</h1>
+      <p>Olá meu nome é Leonardo a um tempo atrás comecei meu curso de HTML5, CSS3 que aprendi no Curso em Vídeo e desde então gostei muito da área fiz vários projetos inclusive estão no ar, logo iniciei também meu curso de JavaScript aonde aprendi o básico sobre a linguagem e fiz projetos que foram feitos durante o curso e alguns que fiz com ideias que eu tive,  percebi que os projetos realizados por mim estão sendo esquecidos então decidi criar este site para mostrá-los e praticar um pouco do meu conhecimento sobre HTML e CSS e um pouco de JavaScript, por mais que o site não terá muitas funções. </p>
+    </section>
+    <section id="section2">
+    <img src="imagens/cursoemvideo-logo.png" alt="logodocursoemvideo" width="300px">
+    <p>Todos os projetos a seguir foram realizados durante meu curso no <a href="https://www.cursoemvideo.com/" target="_blank">&#x1F517 CursoemVídeo</a></p>
+    </section>
+  </main>
+  <aside >
+     <section>
+       <h1 class="verproj">Projetos do curso de HTML5 e CSS3</h1>
+       <p>Veja os desafios que fiz durante meu curso de html e css!</p>
+          <input id="verprojetos" class="estilobutton" onclick="projetos()" type="button" value="Ver-projetos ➜">
+     </section>
+     <section id="projetosjava">
+        <h1 class="verproj">Projetos do curso de JavaScript</h1>
+        <p>Veja os desafios que fiz durante meu curso de JavaScript</p>
+        <input  id="verprojetosjava" class="estilobutton" onclick="projetosjava()" type="button" value="Ver-projetos ➜">
+     </section>
+  </aside>
+  <script src="app.js"></script>
+</body>
+</html>
