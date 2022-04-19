@@ -7,6 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 body {
     background-color: var(--fundocolor01);
+    transition: 1s;
 }
 
 :root {
@@ -58,6 +59,8 @@ div#redes {
     color: #010A26;
 }
 
+
+
 #pheader2 {
     font-family: 'Permanent Marker', cursive;
     font-size: 1.3em;
@@ -95,16 +98,20 @@ main {
     background-color:white;
     text-align: center;
     color: #151d0f;
-    padding-top: 30px;
-   
+    padding-top: 10px;
+    padding-left: 40px;
+
+    
     
 }
 
+.card{
+   margin: auto;
+}
 .titulomain {
     font-family: var(--font02);
-    font-size: 1.9em;
-    margin-bottom: 30px;
-    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 40px;
     color: #141E26;
     text-decoration: underline;
 }
