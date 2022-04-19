@@ -13,52 +13,72 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar navbar-dark">
+  <nav class="navbar navbar-expand-lg navbar navbar-dark" style="background-color: #212626;">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img id="iconnav" src="imagens/iconleo.png" alt="icon" width="50px" style="margin-right: 10px;">leosoareshenrique.</a>
+      <a class="navbar-brand" href="#">leosoareshenrique.</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" style="color: cyan;" aria-current="page" href="#">Home</a>
           </li>
           <a class="nav-link" href="#">Sobre</a>
           <a class="nav-link" href="#">Atualizações</a>
+          <a class="nav-link" href="#">Redes</a>
         </ul>
       </div>
     </div>
   </nav>
-  <header>
+  <section>
+    <img src="imagens/iconleo.png" alt="icon" width="200px">
     <h1 class="tituloheader">Bem-vindo(A)</h1>
-    <p id="pheader">Este site é para mostrar meus projetos realizados  <br> durante meu aprendizado de HTML5, CSS3 e JavaScript&#x1F468;&#x200D;&#x1F4BB;</p>
-  </header>
-  <main>
-    <section>
-      <h1 class="titulomain">Do que se trata</h1>
-      <p>Olá meu nome é Leonardo a um tempo atrás comecei meu curso de HTML5, CSS3 que aprendi no Curso em Vídeo e desde então gostei muito da área fiz vários projetos inclusive estão no ar, logo iniciei também meu curso de JavaScript aonde aprendi o básico sobre a linguagem e fiz projetos que foram feitos durante o curso e alguns que fiz com ideias que eu tive,  percebi que os projetos realizados por mim estão sendo esquecidos então decidi criar este site para mostrá-los e praticar um pouco do meu conhecimento sobre HTML e CSS e um pouco de JavaScript, por mais que o site não terá muitas funções. </p>
-    </section>
-    <section id="section2">
-    <img src="imagens/cursoemvideo-logo.png" alt="logodocursoemvideo" width="300px" >
-    <p>Todos os projetos a seguir foram realizados durante meu curso no <a href="https://www.cursoemvideo.com/" target="_blank">&#x1F517 CursoemVídeo</a></p>
-    </section>
-  </main>
-  <aside >
-     <section>
-       <h1 class="verproj">Desafios do curso de HTML5 e CSS3</h1>
-       <p>Veja os desafios que fiz durante meu curso de html e css!</p>
-          <input id="verprojetos" class="estilobutton" onclick="projetos()" type="button" value="Ver-projetos ➜">
-     </section>
-     <section id="projetosjava">
-        <h1 class="verproj">Desafios do curso de JavaScript</h1>
-        <p>Veja os desafios que fiz durante meu curso de JavaScript</p>
-        <input  id="verprojetosjava" class="estilobutton" onclick="projetosjava()" type="button" value="Ver-projetos ➜">
-     </section>
-  </aside>
-  <footer>
-    Site criado por &copy;Leonardo
-  </footer>
+    <p id="pheader2">Desenvolvedor web-estudante</p>
+    <input type="button"  id="contato" value="Contato">
+   <div id="redes">
+    <img src="imagens/instagram.png" alt="instagram" width="30px">
+    <img src="imagens/facebook.png" alt="facebook" width="30px">
+    <img src="imagens/github (1).png" alt="github" width="30px">
+   </div>
+  </section>
+<div class="album py-5 bg-light">
+        <div class="container">
+          <h2 class="jumbotron-heading text-center" style="text-decoration: underline;">Projetos</h2>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card mb-4 shadow-sm">
+                <picture>
+                  <source media="(max-width: 467px  )" srcset="imagens/fundocell.png" type="image/png">
+                  <source media="(max-width: 1000px  )" srcset="imagens/fundomaior.png" type="image/png">
+                  <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 340px; width: 100%; display: block;" src="imagens/fundoprojeto.png" data-holder-rendered="true"></picture>
+                <div class="card-body">
+                  <p class="card-text"></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Ver projeto</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Código</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 400px; width: 100%; display: block;" src="imagens/projeto2.png" data-holder-rendered="true">
+                <div class="card-body">
+                  <p class="card-text"></p>
+                  <p class="card-text"></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Ver projeto</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Código</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+           
   <script src="app.js"></script>
 </body>
 </html>
