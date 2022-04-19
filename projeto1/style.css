@@ -99,14 +99,13 @@ main {
     text-align: center;
     color: #151d0f;
     padding-top: 10px;
-    padding-left: 40px;
 
     
     
 }
 
 .card{
-   margin: auto;
+  margin: auto;
 }
 .titulomain {
     font-family: var(--font02);
