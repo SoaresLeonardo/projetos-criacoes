@@ -11,11 +11,17 @@ body {
 }
 
 :root {
-    --fundocolor01:#D5F2DA;
+    --fundocolor01:#04D9B2;
     --fundocolor02:#2E4021;
     --font01: 'Lobster', cursive;
     --font02:'Fjalla One', sans-serif;
     --font03: 'Comfortaa', sans-serif;
+}
+
+#sobre-mim {
+    background-color: #04D9B2;
+    height: 300px;
+    
 }
 
 .navbar-brand { 
@@ -44,11 +50,7 @@ body {
     font-family: 'Caveat', cursive;
 }
 
-.nav-link:hover {
-    background-color: #131313;
-    transition: all 0.5s ease-in;
-    transition-delay: 0.03s;
-  } 
+
 section {
     text-align: center;
     padding-top: 20px;
@@ -71,7 +73,7 @@ div#redes {
 
 #pheader2 {
     font-size: 1.2em;
-    color: #022225;    
+    color: white;    
 }
 
 #navproj {
@@ -82,7 +84,7 @@ div#redes {
 .tituloheader {
     font-family: var(--font01);
     font-size: 4.2em;
-    color: #022225;    
+    color:  white;    
 }
 
 @media(min-width: 400px) {
@@ -110,6 +112,7 @@ main {
     text-align: center;
     color: #151d0f;
     padding-top: 10px;
+   
 
     
     
@@ -120,7 +123,7 @@ main {
 }
 .titulomain {
     font-family: var(--font02);
-    font-size: 2em;
+    font-size: 2.4em;
     margin-bottom: 40px;
     color: #141E26;
     text-decoration: underline;
@@ -129,14 +132,13 @@ main {
 #contato {
     background-color: transparent;
     border: 2px solid #141E26;
-    color: #141E26;
+    color: white;
     padding: 8px;
     border-radius: 30px;
     width: 130px;
     margin-top: 20px;
     transition: 0.3s;
     background-color: #141E26;
-    color: var(--fundocolor01);
 }
 
 
@@ -182,4 +184,8 @@ a {
 
 }
 
+
+section#projetos {
+    margin-bottom: -200px ;
+}
 
