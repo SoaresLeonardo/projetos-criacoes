@@ -11,7 +11,7 @@ body {
 }
 
 :root {
-    --fundocolor01:#C4EEF2;
+    --fundocolor01:#e6fdff;
     --fundocolor02:#2E4021;
     --font01: 'Lobster', cursive;
     --font02:'Fjalla One', sans-serif;
@@ -43,8 +43,8 @@ body {
 
 section {
     text-align: center;
-    padding-top: 50px;
-    height: 900px;
+    padding-top: 20px;
+    height: 600px;
   
    
 }
