@@ -76,8 +76,13 @@ div#redes {
     border: none;
 }
 
+#tipag2 {
+    margin-top: 20px;
+    text-shadow: 1px 4px 10px rgba(0, 0, 0, 0.192);
+}
 
-.tituloheader {
+
+.tituloheader, #tipag2{
     font-family: var(--font01);
     font-size: 4.2em;
     color:  white;    
