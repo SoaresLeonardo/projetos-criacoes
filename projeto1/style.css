@@ -26,6 +26,8 @@ body {
     
 }
 
+
+
 .nav-link {
     font-family: 'Roboto Mono', monospace;
     transition: 0.3s;
@@ -43,14 +45,14 @@ body {
 
 .navbar-brand {
     text-transform: uppercase;
-    font-family: 'Caveat', cursive;
+    text-shadow: 3px 4px 7px black;
 }
 
 
 section {
     text-align: center;
     padding-top: 20px;
-    height: 620px;
+    height: 600px;
   
    
 }
