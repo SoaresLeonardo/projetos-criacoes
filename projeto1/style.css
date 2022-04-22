@@ -82,7 +82,7 @@ div#redes {
 }
 
 
-.tituloheader, #tipag2{
+.tituloheader, #tipag2, #titulopag3{
     font-family: var(--font01);
     font-size: 4.2em;
     color:  white;    
@@ -209,4 +209,9 @@ footer {
     text-align: center;
     padding: 20px;
     font-size: 1.1em;
+}
+
+#pag04 {
+    height: 200px;
+    margin-top: 20px;
 }
