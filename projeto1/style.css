@@ -9,7 +9,7 @@ body {
     background-color: var(--fundocolor01);
     transition: 1s;
 }
-
+/*VARIAVEIS--*/
 :root {
     --fundocolor01:#30D5C8;
     --fundocolor02:#2E4021;
@@ -18,28 +18,13 @@ body {
     --font03: 'Comfortaa', sans-serif;
 }
 
-#sobre-mim {
-    background-color: #30D5C8;
-    margin-right:  1px;
-    margin-left: 1px;
-    height: 300px;
-    
-}
 
 
 
+/*CONFIGURAÇÕES DO NAVBAR-SITE*/
 .nav-link {
     font-family: 'Roboto Mono', monospace;
     transition: 0.3s;
-}
-
-
-
-@media(min-width: 1038px) {
-    .navbar-brand { 
-        margin-right:  50vw;
-        margin-left: 20px;
-    }
 }
 
 
@@ -49,24 +34,23 @@ body {
 }
 
 
+#navproj {
+    border: none;
+}
+
+
+/*INICIO*/
 section {
     text-align: center;
     padding-top: 20px;
     height: 600px;
-  
-   
-}
+}   
+
 
 div#redes {
     margin-top: 30px;
     letter-spacing: 5px;
 }
-
-#pheader {
-    font-size: 1em;
-    color: #010A26;
-}
-
 
 
 #pheader2 {
@@ -74,21 +58,96 @@ div#redes {
     color: white;    
 }
 
-#navproj {
-    border: none;
+
+.card {
+    margin: auto;
+  }
+
+
+  #sobre-mim {
+    background-color: #30D5C8;
+    margin-right:  1px;
+    margin-left: 1px;
+    height: 300px;
+    
 }
 
+
+main {
+    background-color:white;
+    text-align: center;
+    color: #151d0f;
+    padding-top: 10px;
+}
+
+
+.titulomain {
+    font-family: var(--font02);
+    font-size: 2.4em;
+    margin-bottom: 40px;
+    color: #141E26;
+    text-decoration: underline;
+}
+
+
+
+
+/*SOBRE*/
+#sobre {
+    background-color: white;
+    height: max-content;
+    max-width: 700px;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 40px;
+    text-indent: 2%;
+    line-height: 25px;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.1em;
+}
+
+
+/*PROJETOS*/
 #tipag2 {
     margin-top: 20px;
     text-shadow: 1px 4px 10px rgba(0, 0, 0, 0.192);
 }
 
 
+
+
+/*OUTROS*/
 .tituloheader, #tipag2, #titulopag3{
     font-family: var(--font01);
     font-size: 4.2em;
     color:  white;    
 }
+
+
+section#projetos {
+    margin-bottom: -200px ;
+}
+
+
+#pag04 {
+    height: 200px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+/*MEDIAS*/
+@media(min-width: 1038px) {
+    .navbar-brand { 
+        margin-right:  50vw;
+        margin-left: 20px;
+    }
+}
+
 
 @media(min-width: 400px) {
     .tituloheader {
@@ -110,71 +169,6 @@ div#projetosestilos {
     margin-left: 200px;
 }
 
-main {
-    background-color:white;
-    text-align: center;
-    color: #151d0f;
-    padding-top: 10px;
-   
-
-    
-    
-}
-
-.card{
-  margin: auto;
-}
-.titulomain {
-    font-family: var(--font02);
-    font-size: 2.4em;
-    margin-bottom: 40px;
-    color: #141E26;
-    text-decoration: underline;
-}
-
-#contato {
-    background-color: transparent;
-    border: 2px solid #141E26;
-    color: white;
-    padding: 8px;
-    border-radius: 30px;
-    width: 130px;
-    margin-top: 20px;
-    transition: 0.3s;
-    background-color: #141E26;
-}
-
-
-
-
-
-
-
-a {
-    text-decoration: none;
-    color: blue;
-}
-
-
-
-.estilobutton {
-    background-color: transparent;
-    border: 2px solid white;
-    color: white;
-    padding: 10px;
-    border-radius: 30px;
-    margin-top: 20px;
-    transition: 0.3s;
-    font-weight: normal;
-    font-size: 1.2;
-    outline: none;
-}
-
-
-
-
-
-
 
 @media(min-width: 633px) {
     header#pagina2 {
@@ -188,32 +182,19 @@ a {
 }
 
 
-section#projetos {
-    margin-bottom: -200px ;
+/*LINKS--*/
+a {
+    text-decoration: none;
+    color: blue;
 }
+
+
+
+
 
 footer {
     background-color: #043f3a;
     color: white;
     text-align: center;
     font-weight: bold;
-}
-
-#sobre {
-    background-color: white;
-    height: max-content;
-    max-width: 700px;
-    margin: auto;
-    border-radius: 15px;
-    margin-top: 40px;
-    text-indent: 2%;
-    line-height: 25px;
-    text-align: center;
-    padding: 20px;
-    font-size: 1.1em;
-}
-
-#pag04 {
-    height: 200px;
-    margin-top: 20px;
 }
