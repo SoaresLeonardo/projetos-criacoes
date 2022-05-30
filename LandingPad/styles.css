@@ -110,13 +110,10 @@ body {
 }
 
 .produto_exemplo {
-    width: 160px;
+  width: 140px;
    
 }
 
-@media (min-width: 980px) {
-    
-}
 
 #lista_style {
     list-style: none;
