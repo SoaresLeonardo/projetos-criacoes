@@ -109,3 +109,20 @@ body {
     border-style: none;
 }
 
+.produto_exemplo {
+    width: 160px;
+   
+}
+
+@media (min-width: 980px) {
+    
+}
+
+#lista_style {
+    list-style: none;
+    display: flex;
+}
+
+#container_produtos {
+    margin-top: 90px;
+}
